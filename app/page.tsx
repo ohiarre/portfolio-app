@@ -47,7 +47,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="sticky bottom-5 w-full cursor-pointer flex justify-center">
         <Link href="#hero">
-          <div className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center text-black">
+          <div className="w-10 h-10 rounded-full flex items-center justify-center">
             <ScrollUp />
           </div>
         </Link>
