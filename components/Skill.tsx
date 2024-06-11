@@ -25,7 +25,7 @@ async function Skill({ directionLeft }: Props) {
         <div key={index} className='group relative flex cursor-pointer md:mx-3'>
           <MotionDiv
             initial={{
-              x: directionLeft ? -100 : 100,
+              x: directionLeft ? 50 : 50,
               opacity: 0,
             }}
             transition={{ duration: 1 }}
