@@ -35,7 +35,7 @@ async function Hero({}: Props) {
                     <h2 className='uppercase text-sm text-gray-500 pb-2 tracking-[15px]'>{item.title}</h2>
                 </React.Fragment>
             ))}
-            <h1 className='text-3xl lg:text-4xl font-semibold px-10'>
+            <h1 className='text-lg md:text-2xl font-semibold px-10'>
                 <UseTypewriter/>
             </h1>
             <div className='pt-5 z-20'>
