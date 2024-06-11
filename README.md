@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio App
 
-## Getting Started
+Welcome to my portfolio website built using cutting-edge technologies for a seamless and dynamic user experience. Below is a brief description of the tech stack and features implemented:
 
-First, run the development server:
+# Technologies Used
+Next.js 14: Leveraging the latest version of Next.js for server-side rendering, static site generation, and optimized performance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Framer Motion: Adding stunning animations and smooth transitions to create an engaging and interactive user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tailwind CSS: Utilizing the utility-first CSS framework for rapid styling and responsive design, ensuring a clean and modern look.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sanity.io: Implementing a headless CMS to manage and deliver content with ease, providing a flexible and scalable backend solution.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+React: Building the core UI components with React to create a modular and maintainable codebase.
+TypeScript: Ensuring type safety and robust code quality with TypeScript, enhancing developer productivity and reducing runtime errors.
 
-## Learn More
+# Features
+Dynamic Animations: Experience fluid animations and transitions powered by Framer Motion, bringing life to the portfolio.
 
-To learn more about Next.js, take a look at the following resources:
+Responsive Design: A mobile-first approach with Tailwind CSS ensures the portfolio looks great on all devices.
+Content Management: Sanity.io integration allows for easy content updates and scalability, making the portfolio future-proof.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Optimized Performance: Next.js 14 ensures fast load times and excellent performance, providing a smooth browsing experience.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Type Safety: TypeScript enhances code reliability and maintainability, catching errors early in the development process.
