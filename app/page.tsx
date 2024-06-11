@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import Header from "../components/Header";
-import Image from "next/image";
 import About from "@/components/About";
 import WorkExperience from "../components/WorkExperience";
 import Skills from "@/components/Skills";
@@ -45,11 +44,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-    <Link href='#hero'>
       <footer className="sticky bottom-5 w-full cursor-pointer">
-      <ScrollUp />
+        <Link href='#hero'>
+          <ScrollUp />
+        </Link>
       </footer>
-    </Link>
     </main>
   );
 }
