@@ -23,3 +23,5 @@ Content Management: Sanity.io integration allows for easy content updates and sc
 Optimized Performance: Next.js 14 ensures fast load times and excellent performance, providing a smooth browsing experience.
 
 Type Safety: TypeScript enhances code reliability and maintainability, catching errors early in the development process.
+
+Live: https://portfolio-app-kappa-seven.vercel.app/
