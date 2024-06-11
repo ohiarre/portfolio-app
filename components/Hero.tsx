@@ -21,7 +21,7 @@ async function Hero({}: Props) {
     const data: HeroCard[] = await getData();
     
     return (
-        <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
+        <div className='h-screen flex flex-col space-y-5 items-center justify-center text-center overflow-hidden'>
             <BackgroundCircles />
             {data.map((item) => (
                 <React.Fragment key={item.imageUrl}>
