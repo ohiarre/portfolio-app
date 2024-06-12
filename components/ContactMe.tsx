@@ -37,10 +37,6 @@ function ContactMe({}: Props) {
           </div>
 
           <div className='space-y-3'>
-            {/* <div className='flex items-center space-x-5 justify-center'>
-              <PhoneIcon className='text-green-500 h-5 w-5 md:h-7 md:w-7 animate-pulse'/>
-              <p className='text-lg md:text-xl font-light tracking-wide'>+2349058007979</p>
-            </div> */}
             <div className='flex items-center space-x-5 justify-center'>
               <EnvelopeIcon className='text-green-500 h-5 w-5 md:h-7 md:w-7  animate-pulse'/>
               <p className='text-lg md:text-xl font-light tracking-wide'>malikahtaan@gmail.com</p>

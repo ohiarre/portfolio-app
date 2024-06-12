@@ -44,11 +44,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="sticky bottom-5 w-full cursor-pointer">
+      <section className="sticky bottom-5 w-full cursor-pointer">
         <Link href='#hero'>
           <ScrollUp />
         </Link>
-      </footer>
+      </section>
     </main>
   );
 }
