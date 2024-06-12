@@ -12,6 +12,7 @@ Tailwind CSS: Utilizing the utility-first CSS framework for rapid styling and re
 Sanity.io: Implementing a headless CMS to manage and deliver content with ease, providing a flexible and scalable backend solution.
 
 React: Building the core UI components with React to create a modular and maintainable codebase.
+
 TypeScript: Ensuring type safety and robust code quality with TypeScript, enhancing developer productivity and reducing runtime errors.
 
 # Features
