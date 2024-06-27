@@ -26,11 +26,11 @@ async function About({}: Props) {
     transition={{ duration: 1.5 }}
     
     id="about"
-    className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    className="relative flex flex-col h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-y-auto scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-green-500/80">
 
       {data.map((item) => (
       <React.Fragment key={item.imageUrl}>
-     <div className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl ">
+     <div className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl">
       <h3>
         About
       </h3>
@@ -54,7 +54,7 @@ async function About({}: Props) {
         />
       </MotionDiv >
 
-      <div className="space-y-5 md:space-y-10 px-5 md:px-10 mt-3 md:mt-0 ">
+      <div className="space-y-5 md:space-y-10 px-5 md:px-10 mt-3 md:mt-0">
       <h4 className="text-2xl md:text-4xl font-semibold">
   {item.title ? item.title : (
     <>
@@ -63,7 +63,7 @@ async function About({}: Props) {
   )}
 </h4>
 
-        <p className=" text-base md:text-lg lg:text-xl">
+        <p className="text-base md:text-lg lg:text-xl">
          {item.description}
         </p>
       </div>

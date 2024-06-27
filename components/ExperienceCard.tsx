@@ -26,7 +26,7 @@ async function ExperienceCard({}: Props) {
   return (
     <>
       {data.map((experience, index) => (
-        <article key={index} className='flex flex-col bg-[#292929] rounded-lg p-10 items-center space-y-2 md:space-y-7 flex-shrink-0 w-[300px] md:w-[500px] xl:w-[900px] snap-center opacity-50 hover:opacity-100 cursor-pointer transition-opacity duration-200  mx-5'>
+        <article key={index} className='flex flex-col bg-[#292929] rounded-lg p-10 items-center space-y-2 md:space-y-7 flex-shrink-0 w-[300px] md:w-[500px] xl:w-[900px] snap-center opacity-50 hover:opacity-100 cursor-pointer transition-opacity duration-200 mx-5'>
           <MotionDiv
             initial={{
               y: -100,

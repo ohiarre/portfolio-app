@@ -11,7 +11,7 @@ function WorkExperience({}: Props) {
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
     transition={{ duration: 1.5 }}
-    className='h-screen flex flex-col relative  overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-green-500/80 text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center '>
+    className='h-screen flex flex-col relative  overflow-y-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-green-500/80 text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'>
 
       <div className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl'>
        <h3>Experience</h3>
