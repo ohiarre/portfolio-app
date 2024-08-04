@@ -60,7 +60,7 @@ async function Projects({ }: Props) {
                     <h4 className='text-lg md:text-xl font-semibold text-center -tracking-wider hover:text-white/50'>{project.projectTitle}
                     </h4>
                     </Link>
-                    <p className='rounded-lg text-sm p-3 w-full mx-auto bg-gray-700/20 text-center md:text-left -tracking-wide z-20'>{project.projectDescription}</p>
+                    <p className='rounded-lg text-sm p-3 w-[350px] md:w-full mx-auto bg-gray-700/20 text-center md:text-left -tracking-wide z-20'>{project.projectDescription}</p>
                   </div>
               </div>
             </div>
